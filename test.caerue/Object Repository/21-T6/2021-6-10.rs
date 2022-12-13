@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>2021-5-7</name>
+   <name>2021-6-10</name>
    <tag></tag>
-   <elementGuidId>1e74e598-5cbd-46b2-b7d4-e49f736166d8</elementGuidId>
+   <elementGuidId>02a94167-0477-44ad-a67c-756151b8cf67</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='sss_size ss_height btn_gray'][contains(text(),'変更')])[7]</value>
+         <value>(//a[@class='sss_size ss_height btn_gray'][contains(text(),'変更')])[10]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

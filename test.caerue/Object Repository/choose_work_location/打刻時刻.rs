@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>0900</name>
+   <name>打刻時刻</name>
    <tag></tag>
    <elementGuidId>ecf69e75-65fb-47be-8206-278e53aa5ddf</elementGuidId>
    <selectorCollection>

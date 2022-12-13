@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/main[1]/section[7]/table[1]/tbody[1]/tr[2]/td[8]/p[1]/a[1]</value>
+         <value>//tbody[1]/tr[2]/td[8]/p[1]/a[contains(text(),'保存')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>2021-5-6</name>
+   <name>Input Kimuchi - Copy</name>
    <tag></tag>
-   <elementGuidId>ba05fd2c-4426-49b0-a97f-73af21ab3f62</elementGuidId>
+   <elementGuidId>75f1f774-ba3f-418d-b21a-66378ff38585</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='sss_size ss_height btn_gray'][contains(text(),'変更')])[6]</value>
+         <value>//span[contains(text(),'1DaNang')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

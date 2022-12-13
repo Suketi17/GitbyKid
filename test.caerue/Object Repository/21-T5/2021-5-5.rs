@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='sss_size ss_height btn_gray'][contains(text(),'変更')])[1]</value>
+         <value>(//a[@class='sss_size ss_height btn_gray'][contains(text(),'変更')])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
