@@ -17,19 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('choose_work_location/T5/2021-5-1'))
+WebUI.click(findTestObject('21-T5/2021-5-1'))
 
-WebUI.click(findTestObject('choose_work_location/T5/追加'))
+WebUI.click(findTestObject('choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/T5/0900'), '0900')
+WebUI.sendKeys(findTestObject('choose_work_location/0900'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/T5/Save'))
+WebUI.click(findTestObject('choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/T5/追加'))
+WebUI.click(findTestObject('choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/T5/1800'), '1800')
+WebUI.sendKeys(findTestObject('choose_work_location/1800'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/T5/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/T5/Save'))
+WebUI.click(findTestObject('choose_work_location/Save'))
+
+WebUI.click(findTestObject('choose_work_location/List NV'))
+
+WebUI.click(findTestObject('21-T5/2021-5-5'))
+
+WebUI.click(findTestObject('choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('choose_work_location/0900'), '0900')
+
+WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), '')
 

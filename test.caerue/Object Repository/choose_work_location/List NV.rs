@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Save</name>
+   <name>List NV</name>
    <tag></tag>
-   <elementGuidId>53786e07-f2fd-4350-bd29-f937cf016072</elementGuidId>
+   <elementGuidId>4ba4a558-8daf-4caa-8b19-c6066bd4a336</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'保存')]</value>
+         <value>/html[1]/body[1]/main[1]/section[1]/p[1]/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

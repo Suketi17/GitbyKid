@@ -29,5 +29,5 @@ WebUI.click(findTestObject('Login_page/Login_click'))
 
 WebUI.callTestCase(findTestCase('choose_work_location'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dakoku'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-5月'), [:], FailureHandling.STOP_ON_FAILURE)
 

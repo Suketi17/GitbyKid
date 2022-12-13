@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1800</name>
+   <name>2021-5-5</name>
    <tag></tag>
-   <elementGuidId>70fff9f7-0f65-4d2f-9898-2f8af153a9d8</elementGuidId>
+   <elementGuidId>8321f5ef-e473-45cf-b4a6-0385af3b87ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='newTimestamp']</value>
+         <value>(//a[@class='sss_size ss_height btn_gray'][contains(text(),'変更')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
