@@ -21,6 +21,8 @@ WebUI.mouseOver(findTestObject('choose_work_location/勤怠管理'))
 
 WebUI.click(findTestObject('choose_work_location/訪問先別勤務情報'))
 
+WebUI.click(findTestObject('choose_work_location/勤務地＿選択'))
+
 WebUI.click(findTestObject('choose_work_location/ID_訪問先＿変更必要'))
 
 WebUI.selectOptionByLabel(findTestObject('choose_work_location/employee_working_year'), '2021年', false)
@@ -43,6 +45,8 @@ WebUI.click(findTestObject('HMSK/HMSK_Save1'))
 WebUI.click(findTestObject('HMSK/NV追加'))
 
 WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
+
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('HMSK/HMSK_Save2'))
 
@@ -71,6 +75,8 @@ WebUI.click(findTestObject('HMSK/NV追加'))
 
 WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
 
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('HMSK/HMSK_Save2'))
 
 WebUI.click(findTestObject('HMSK/Next_day'))
@@ -93,6 +99,8 @@ WebUI.click(findTestObject('HMSK/HMSK_Save1'))
 WebUI.click(findTestObject('HMSK/NV追加'))
 
 WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
+
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('HMSK/HMSK_Save2'))
 
@@ -119,6 +127,8 @@ WebUI.click(findTestObject('HMSK/NV追加'))
 
 WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
 
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('HMSK/HMSK_Save2'))
 
 WebUI.click(findTestObject('HMSK/Next_day'))
@@ -128,7 +138,6 @@ WebUI.delay(2)
 WebUI.click(findTestObject('HMSK/Next_day'))
 
 WebUI.delay(2)
-
 
 //2022-1-4
 WebUI.click(findTestObject('HMSK/DoiLich/Day4'))
@@ -147,4 +156,7 @@ WebUI.click(findTestObject('HMSK/NV追加'))
 
 WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
 
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('HMSK/HMSK_Save2'))
+

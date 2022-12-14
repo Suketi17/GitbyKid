@@ -87,7 +87,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('choose_work_location/List NV'))
 
 //2021-5-7
-WebUI.click(findTestObject('Time/06'))
+WebUI.click(findTestObject('Time/07'))
 
 WebUI.click(findTestObject('choose_work_location/追加'))
 
@@ -132,7 +132,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('choose_work_location/List NV'))
 
 //2021-5-13
-WebUI.click(findTestObject('Time/03'))
+WebUI.click(findTestObject('Time/13'))
 
 WebUI.click(findTestObject('choose_work_location/追加'))
 
@@ -153,7 +153,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('choose_work_location/List NV'))
 
 //2021-5-18
-WebUI.click(findTestObject('Time/17'))
+WebUI.click(findTestObject('Time/18'))
 
 WebUI.click(findTestObject('choose_work_location/追加'))
 
@@ -237,7 +237,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('choose_work_location/List NV'))
 
 //2021-5-22
-WebUI.click(findTestObject('Time/21'))
+WebUI.click(findTestObject('Time/22'))
 
 WebUI.click(findTestObject('choose_work_location/追加'))
 
@@ -334,6 +334,8 @@ WebUI.click(findTestObject('choose_work_location/Save'))
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('choose_work_location/List NV'))
+
+WebUI.waitForElementClickable(findTestObject('Choose_year_month_day/Choose_year21-22'), 2)
 
 WebUI.click(findTestObject('Choose_year_month_day/Next_month5-11'))
 

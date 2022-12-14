@@ -204,5 +204,7 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('choose_work_location/List NV'))
 
+WebUI.waitForElementClickable(findTestObject('Choose_year_month_day/Choose_year21-22'), 2)
+
 WebUI.click(findTestObject('Choose_year_month_day/Next_month5-11'))
 

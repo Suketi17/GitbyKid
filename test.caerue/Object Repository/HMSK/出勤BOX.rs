@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/main[@id='attendance_detail']/section[5]/section[1]/table[1]/tr[2]/td[3]/div[1]/input[1]</value>
+         <value>//body/main[@id='attendance_detail']/section[5]/section[1]/table[1]/tr[2]/td[2]/div[1]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

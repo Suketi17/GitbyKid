@@ -17,29 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('訪問先'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('test.caeru.biz/itz')
 
-WebUI.callTestCase(findTestCase('choose_work_location'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Login_page/ID_Input'), 'admin')
 
-WebUI.callTestCase(findTestCase('2021-05月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Login_page/Pass_Input'), 'solomon')
 
-WebUI.callTestCase(findTestCase('2021-06月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2021-07月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2021-08月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2021-09月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2021-10月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2021-11月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2021-12月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2022-09月'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('2022-10-12月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Login_page/Login_click'))
 

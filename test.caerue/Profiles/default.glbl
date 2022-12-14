@@ -11,12 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'4748'</initValue>
+      <initValue>'4950'</initValue>
       <name>ID_employe</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'1DaNang DaNangX'</initValue>
-      <name>homonsaki_name</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
