@@ -52,11 +52,11 @@ WebUI.click(findTestObject('HMSK/HMSK_Save2'))
 
 WebUI.click(findTestObject('HMSK/Next_day'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('HMSK/Next_day'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 //2021-5-10
 WebUI.click(findTestObject('HMSK/HMSK_2021-5-10'))

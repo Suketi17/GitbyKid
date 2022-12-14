@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'4950'</initValue>
+      <initValue>'4750'</initValue>
       <name>ID_employe</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
