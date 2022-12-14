@@ -17,29 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('test.caeru.biz/itz')
-
-WebUI.sendKeys(findTestObject('Login_page/ID_Input'), 'admin')
-
-WebUI.sendKeys(findTestObject('Login_page/Pass_Input'), 'solomon')
-
-WebUI.click(findTestObject('Login_page/Login_click'))
-
-WebUI.callTestCase(findTestCase('choose_work_location'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Time/03'))
-
-WebUI.click(findTestObject('choose_work_location/追加'))
-
-WebUI.selectOptionByValue(findTestObject('choose_work_location/打刻日'), '2021-5-4', false)
-
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
-
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
-
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Copy'))
-
-WebUI.click(findTestObject('choose_work_location/Save'))
-
