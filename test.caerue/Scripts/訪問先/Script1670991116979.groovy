@@ -77,9 +77,61 @@ WebUI.click(findTestObject('HMSK/Next_day'))
 
 WebUI.delay(2)
 
-
 //2021-5-11
 WebUI.click(findTestObject('HMSK/HMSK_2021-5-11'))
+
+WebUI.click(findTestObject('HMSK/勤務追加'))
+
+WebUI.sendKeys(findTestObject('HMSK/出勤BOX'), '0600')
+
+WebUI.sendKeys(findTestObject('HMSK/退勤BOX'), '0800')
+
+WebUI.sendKeys(findTestObject('HMSK/必要人数'), '1')
+
+WebUI.click(findTestObject('HMSK/HMSK_Save1'))
+
+WebUI.click(findTestObject('HMSK/NV追加'))
+
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
+
+WebUI.click(findTestObject('HMSK/HMSK_Save2'))
+
+WebUI.click(findTestObject('HMSK/DoiLich/Chon_lich'))
+
+WebUI.selectOptionByLabel(findTestObject('HMSK/DoiLich/DoiNam2022'), '2022年', false)
+
+WebUI.selectOptionByLabel(findTestObject('HMSK/DoiLich/Doithang1'), '1月', false)
+
+//2022-1-2
+WebUI.click(findTestObject('HMSK/DoiLich/Day2'))
+
+WebUI.click(findTestObject('HMSK/勤務追加'))
+
+WebUI.sendKeys(findTestObject('HMSK/出勤BOX'), '0600')
+
+WebUI.sendKeys(findTestObject('HMSK/退勤BOX'), '0800')
+
+WebUI.sendKeys(findTestObject('HMSK/必要人数'), '1')
+
+WebUI.click(findTestObject('HMSK/HMSK_Save1'))
+
+WebUI.click(findTestObject('HMSK/NV追加'))
+
+WebUI.sendKeys(findTestObject('HMSK/従業員ID＿BOX'), GlobalVariable.ID_employe)
+
+WebUI.click(findTestObject('HMSK/HMSK_Save2'))
+
+WebUI.click(findTestObject('HMSK/Next_day'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('HMSK/Next_day'))
+
+WebUI.delay(2)
+
+
+//2022-1-4
+WebUI.click(findTestObject('HMSK/DoiLich/Day4'))
 
 WebUI.click(findTestObject('HMSK/勤務追加'))
 
