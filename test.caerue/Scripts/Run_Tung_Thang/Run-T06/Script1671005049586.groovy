@@ -17,13 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.mouseOver(findTestObject('choose_work_location/勤怠管理'))
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('choose_work_location/勤怠データ管理'))
+WebUI.callTestCase(findTestCase('KMC_月度/choose_work_location - 06月度'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('choose_work_location/ID_Nhanvien_変更必要'))
-
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/employee_working_year'), '2021年', false)
-
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/employee_working_month'), '5月度', false)
+WebUI.callTestCase(findTestCase('2021-06月'), [:], FailureHandling.STOP_ON_FAILURE)
 
