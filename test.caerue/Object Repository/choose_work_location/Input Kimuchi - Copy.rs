@@ -10,10 +10,14 @@
          <value></value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>section.default_table div.input_wrapper div.caeru_autocomplete_wrapper.open_list div.caeru_autocomplete_inner ul:nth-child(1) li.active:nth-child(1) div.caeru_autocomplete_row > span:nth-child(1)</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'1DaNang')]</value>
+         <value>section.default_table div.input_wrapper div.caeru_autocomplete_wrapper.open_list div.caeru_autocomplete_inner ul:nth-child(1) li.active:nth-child(1) div.caeru_autocomplete_row > span:nth-child(1)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

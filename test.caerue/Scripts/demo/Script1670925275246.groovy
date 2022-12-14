@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Time/03'))
 
 WebUI.click(findTestObject('choose_work_location/追加'))
 
-WebUI.selectOptionByValue(findTestObject('choose_work_location/打刻日'), '2021-5-4', false)
+WebUI.selectOptionByValue(findTestObject('choose_work_location/打刻日'), '2021-05-04', false)
 
 WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
 

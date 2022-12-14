@@ -23,7 +23,7 @@ WebUI.click(findTestObject('choose_work_location/勤怠データ管理'))
 
 WebUI.click(findTestObject('choose_work_location/勤務地＿選択'))
 
-WebUI.click(findTestObject('choose_work_location/employee_attendance_ID_NV'))
+WebUI.click(findTestObject('choose_work_location/ID_Nhanvien_変更必要'))
 
 WebUI.selectOptionByLabel(findTestObject('choose_work_location/employee_working_year'), '2021年', false)
 

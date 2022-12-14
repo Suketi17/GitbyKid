@@ -11,17 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2'</initValue>
-      <name>Delay_second</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'4748'</initValue>
       <name>ID_employe</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'1'</initValue>
-      <name>Kinmuchi_select</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -29,5 +29,15 @@ WebUI.click(findTestObject('Login_page/Login_click'))
 
 WebUI.callTestCase(findTestCase('choose_work_location'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-5月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-05月'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('2021-06月'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('2021-07月'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('2021-08月'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('2021-09月'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('2021-05月'), [:], FailureHandling.STOP_ON_FAILURE)
 
