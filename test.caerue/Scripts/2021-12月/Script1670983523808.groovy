@@ -45,9 +45,11 @@ WebUI.click(findTestObject('choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
 
+WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+
 WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Copy'))
+WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
 
 WebUI.click(findTestObject('choose_work_location/Save'))
 
@@ -91,9 +93,11 @@ WebUI.click(findTestObject('choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
 
+WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+
 WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Copy'))
+WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
 
 WebUI.click(findTestObject('choose_work_location/Save'))
 
@@ -137,9 +141,11 @@ WebUI.click(findTestObject('choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
 
+WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+
 WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Copy'))
+WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
 
 WebUI.click(findTestObject('choose_work_location/Save'))
 
