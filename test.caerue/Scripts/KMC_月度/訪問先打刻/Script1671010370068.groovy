@@ -52,14 +52,13 @@ WebUI.click(findTestObject('Folder_Gerenal/訪問先/HMSK_Save2'))
 
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/Next_day'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/Next_day'))
 
 WebUI.delay(1)
 
 //2021-5-10
-
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/勤務追加'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/訪問先/出勤BOX'), '0600')
@@ -105,7 +104,11 @@ WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/Chon_lich'))
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/訪問先/DoiLich/DoiNam2022'), '2022年', false)
 
+WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/DoiNam2022'))
+
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/訪問先/DoiLich/Doithang1'), '1月', false)
+
+WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/Doithang1'))
 
 //2022-1-2
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/Day2'))
