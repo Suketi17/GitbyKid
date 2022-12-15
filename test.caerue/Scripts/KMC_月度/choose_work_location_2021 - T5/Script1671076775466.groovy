@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('KMC_月度/ログイン'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Folder_Gerenal/choose_work_location/勤怠管理'))
 
-WebUI.callTestCase(findTestCase('KMC_月度/訪問先打刻'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/勤怠データ管理'))
 
-WebUI.callTestCase(findTestCase('KMC_月度/choose_work_location_2021 - T5'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('0_0Folder＿変更必要/ID_employ'))
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-05月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_year'), '2021年', false)
 

@@ -6,13 +6,17 @@
    <elementGuidId>1f943bf5-b050-44c7-82b3-d48ebb350925</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'勤怠データ管理')]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>CSS</key>
          <value>a[href='https://test.caeru.biz/itz/employee_attendance/1']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

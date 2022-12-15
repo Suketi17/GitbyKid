@@ -79,7 +79,7 @@ WebUI.click(findTestObject('Folder_Gerenal/訪問先/HMSK_Save2'))
 
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/Next_day'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 //2021-5-11
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/勤務追加'))
