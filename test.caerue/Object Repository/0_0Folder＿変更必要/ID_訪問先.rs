@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[contains(text(),'889')]</value>
+         <value>//p[contains(text(),'8822')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

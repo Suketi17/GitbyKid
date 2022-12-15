@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('KMC_月度/login1'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/Chayle/2021-05月 - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/Chayle/2021-05月 - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

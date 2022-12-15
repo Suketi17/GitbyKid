@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '9月度', false)
 
+WebUI.click(findTestObject('Folder_Gerenal/1-31/03'))
+
 //2022-9-3
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -134,6 +136,4 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
-
-
 

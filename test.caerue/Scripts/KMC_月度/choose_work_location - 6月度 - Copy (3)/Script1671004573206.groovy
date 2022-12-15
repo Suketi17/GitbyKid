@@ -21,7 +21,7 @@ WebUI.mouseOver(findTestObject('Folder_Gerenal/choose_work_location/勤怠管理
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/勤怠データ管理'))
 
-WebUI.click(findTestObject('0_0Folder＿変更必要/勤務地＿選択'))
+WebUI.click(findTestObject('0_0Folder＿変更必要/勤務地名＿選択'))
 
 WebUI.click(findTestObject('0_0Folder＿変更必要/ID_employ'))
 

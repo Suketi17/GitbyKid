@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[normalize-space()='3931']</value>
+         <value>//p[normalize-space()='1178']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
