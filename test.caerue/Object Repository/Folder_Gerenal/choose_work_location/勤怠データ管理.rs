@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'勤怠データ管理')]</value>
+         <value>a[href='https://test.caeru.biz/itz/employee_attendance/1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
