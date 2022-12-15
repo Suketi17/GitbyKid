@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.url_test)
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/ID_Input'), 'admin')
