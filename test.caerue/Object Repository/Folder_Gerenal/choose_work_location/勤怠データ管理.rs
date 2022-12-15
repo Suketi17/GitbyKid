@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/section[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/a[1]</value>
+         <value>//a[contains(text(),'勤怠データ管理')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
