@@ -154,3 +154,5 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/訪問先/従業員ID＿BOX'), Key
 
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/HMSK_Save2'))
 
+WebUI.click(findTestObject('Folder_Gerenal/Login_Logout/logout'))
+

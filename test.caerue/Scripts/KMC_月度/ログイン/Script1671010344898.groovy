@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_test)
 
-WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_page/ID_Input'), 'admin')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/ID_Input'), 'admin')
 
-WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_page/Pass_Input'), 'solomon')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/Pass_Input'), 'solomon')
 
-WebUI.click(findTestObject('Folder_Gerenal/Login_page/Login_click'))
+WebUI.click(findTestObject('Folder_Gerenal/Login_Logout/Login_click'))
 
