@@ -6,14 +6,20 @@
    <elementGuidId>2384f398-b826-4378-b4e8-8cf32183be38</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[text()='${kinmuchi_name}']/following-sibling::td/p</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@class='ss_size s_height btn_gray'][contains(text(),'選択')])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//td[text()='${kinmuchi_name}']/following-sibling::td/p</value>
+      <webElementGuid>c6d91b91-a5e8-4c6e-b3df-6d5afe9b3b2f</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

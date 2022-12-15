@@ -14,4 +14,9 @@
       <initValue>'4750'</initValue>
       <name>ID_employe</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://test.caeru.biz/itz'</initValue>
+      <name>url_test</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
