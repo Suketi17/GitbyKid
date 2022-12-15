@@ -23,7 +23,7 @@ WebUI.click(findTestObject('choose_work_location/勤怠データ管理'))
 
 WebUI.click(findTestObject('choose_work_location/勤務地＿選択', [('kinmuchi_name') : '1DaNang']))
 
-WebUI.click(findTestObject('choose_work_location/ID_employ', [('employ_id') : '4750']))
+WebUI.click(findTestObject('choose_work_location/ID_employ', [('employ_id') : '3931']))
 
 WebUI.selectOptionByLabel(findTestObject('choose_work_location/employee_working_year'), '2021年', false)
 
