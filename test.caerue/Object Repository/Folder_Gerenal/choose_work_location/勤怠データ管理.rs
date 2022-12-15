@@ -17,6 +17,6 @@
          <value>a[href='https://test.caeru.biz/itz/employee_attendance/1']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
