@@ -6,11 +6,11 @@
    <elementGuidId>1f943bf5-b050-44c7-82b3-d48ebb350925</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'勤怠データ管理')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/section[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
