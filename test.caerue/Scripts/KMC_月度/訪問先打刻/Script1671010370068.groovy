@@ -100,18 +100,13 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/訪問先/従業員ID＿BOX'), Key
 
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/HMSK_Save2'))
 
-//
-WebUI.mouseOver(findTestObject('Folder_Gerenal/choose_work_location/勤怠管理'))
-
-WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/訪問先別勤務情報'))
-
-WebUI.click(findTestObject('0_0Folder＿変更必要/ID_訪問先'))
+WebUI.click(findTestObject('Folder_Gerenal/訪問先/Back_HMSKbetushousai'))
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_year'), '2022年', false)
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '1月度', false)
 
-WebUI.click(findTestObject('Folder_Gerenal/訪問先/2022-1-2'))
+WebUI.click(findTestObject('Folder_Gerenal/訪問先/2022-1-2(day)'))
 
 //2022-1-2
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/勤務追加'))
