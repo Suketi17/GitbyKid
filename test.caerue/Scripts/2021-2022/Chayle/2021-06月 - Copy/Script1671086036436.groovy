@@ -130,6 +130,8 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
+
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
