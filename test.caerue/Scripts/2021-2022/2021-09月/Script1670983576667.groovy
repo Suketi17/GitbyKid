@@ -26,7 +26,7 @@ WebUI.waitForElementClickable(findTestObject('Folder_Gerenal/Choose_year_month_d
 WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
 
 //2021-9-1
-WebUI.click(findTestObject('1-31/01'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/01'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -41,7 +41,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-9-2
-WebUI.click(findTestObject('1-31/02'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/02'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -56,7 +56,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-9-6
-WebUI.click(findTestObject('1-31/06'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/06'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -69,7 +69,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-9-7
-WebUI.click(findTestObject('1-31/07'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/07'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
