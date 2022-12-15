@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('KMC_月度/ログイン'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('KMC_月度/login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('KMC_月度/訪問先打刻'), [:], FailureHandling.STOP_ON_FAILURE)
 

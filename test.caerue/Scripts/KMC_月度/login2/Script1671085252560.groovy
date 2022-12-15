@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('KMC_月度/login1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Folder_Gerenal/Login_Logout/logout'))
 
-WebUI.callTestCase(findTestCase('KMC_月度/choose_work_location_2022'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/ID_Input'), 'admin')
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-09月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/Pass_Input'), 'solomon')
+
+WebUI.click(findTestObject('Folder_Gerenal/Login_Logout/Login_click'))
 
