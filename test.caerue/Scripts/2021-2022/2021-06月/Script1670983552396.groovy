@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //2021-6-1
-WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '6月度', false)
-
 WebUI.click(findTestObject('Folder_Gerenal/1-31/01'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
@@ -130,11 +128,17 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
+
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
+
+
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
@@ -153,6 +157,8 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'
 
 WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
+
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
@@ -166,6 +172,8 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'
 WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 

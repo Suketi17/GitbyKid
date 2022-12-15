@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //2021-12-1
-WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '12月度', false)
-
 WebUI.click(findTestObject('Folder_Gerenal/1-31/01'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
