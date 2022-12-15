@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
-
-WebUI.waitForElementClickable(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year21-22'), 2)
-
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '6月度', false)
 
 //2021-6-1
 WebUI.click(findTestObject('Folder_Gerenal/1-31/01'))

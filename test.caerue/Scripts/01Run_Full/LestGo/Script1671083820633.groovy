@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('KMC_月度/訪問先打刻'), [:], FailureHandl
 
 WebUI.callTestCase(findTestCase('KMC_月度/login2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('KMC_月度/choose_work_location_2021'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('2021-2022/2021-05月'), [:], FailureHandling.STOP_ON_FAILURE)
 
