@@ -110,7 +110,7 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.selectOptionByValue(findTestObject('Folder_Gerenal/choose_work_location/打刻日'), '2022-10-15', false)
+WebUI.selectOptionByValue(findTestObject('Folder_Gerenal/choose_work_location/打刻日'), '2022-12-15', false)
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0500')
 

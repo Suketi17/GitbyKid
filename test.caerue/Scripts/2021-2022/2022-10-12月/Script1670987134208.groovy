@@ -88,7 +88,15 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
-//2022-9-14
+WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
+
+WebUI.delay(1)
+
+//2022-12-14
 WebUI.click(findTestObject('Folder_Gerenal/1-31/14'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
@@ -105,7 +113,7 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.selectOptionByValue(findTestObject('Folder_Gerenal/choose_work_location/打刻日'), '2022-10-15', false)
+WebUI.selectOptionByValue(findTestObject('Folder_Gerenal/choose_work_location/打刻日'), '2022-12-15', false)
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0500')
 

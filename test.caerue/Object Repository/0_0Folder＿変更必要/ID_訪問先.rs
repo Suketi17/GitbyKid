@@ -6,11 +6,11 @@
    <elementGuidId>4193f9f4-83fd-482c-a79a-e4ecfe96c8d4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//p[contains(text(),'6781')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[contains(text(),'8822')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

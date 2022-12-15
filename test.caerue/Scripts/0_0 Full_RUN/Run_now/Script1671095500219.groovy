@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('KMC_月度/login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('KMC_月度/訪問先打刻'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('KMC_月度/訪問先予定＿追加'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('KMC_月度/login2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-05月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-05月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-06月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-06月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-07月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-07月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-08月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-08月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-09月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-09月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-10月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-10月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-11月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-11月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2021-12月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2021-12月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-09月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2022-09月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-10-12月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2022-10-12月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

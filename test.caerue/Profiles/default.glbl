@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'99DaNang'</initValue>
+      <initValue>'12346'</initValue>
       <name>kimuchi_name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1178'</initValue>
+      <initValue>'35894'</initValue>
       <name>ID_employe</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://test-new.caeru.biz/itz'</initValue>
+      <initValue>'https://test.caeru.biz/itz'</initValue>
       <name>url_test</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
