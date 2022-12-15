@@ -69,7 +69,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-8-6
-WebUI.click(findTestObject('1-31/6'))
+WebUI.click(findTestObject('1-31/06'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 

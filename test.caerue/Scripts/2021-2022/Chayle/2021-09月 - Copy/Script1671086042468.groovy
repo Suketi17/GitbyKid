@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '9月度', false)
 
 //2021-9-1
-WebUI.click(findTestObject('1-31/1'))
+WebUI.click(findTestObject('1-31/01'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -35,7 +35,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-9-2
-WebUI.click(findTestObject('1-31/2'))
+WebUI.click(findTestObject('1-31/02'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -50,7 +50,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-9-6
-WebUI.click(findTestObject('1-31/6'))
+WebUI.click(findTestObject('1-31/06'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -63,7 +63,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-9-7
-WebUI.click(findTestObject('1-31/7'))
+WebUI.click(findTestObject('1-31/07'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
