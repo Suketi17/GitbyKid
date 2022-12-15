@@ -100,19 +100,20 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/訪問先/従業員ID＿BOX'), Key
 
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/HMSK_Save2'))
 
-WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/Chon_lich'))
+//
+WebUI.mouseOver(findTestObject('Folder_Gerenal/choose_work_location/勤怠管理'))
 
-WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/訪問先/DoiLich/DoiNam2022'), '2022年', false)
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/訪問先別勤務情報'))
 
-WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/DoiNam2022'))
+WebUI.click(findTestObject('0_0Folder＿変更必要/ID_訪問先'))
 
-WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/訪問先/DoiLich/Doithang1'), '1月', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_year'), '2022年', false)
 
-WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/Doithang1'))
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '1月度', false)
+
+WebUI.click(findTestObject('Folder_Gerenal/訪問先/2022-1-2'))
 
 //2022-1-2
-WebUI.click(findTestObject('Folder_Gerenal/訪問先/DoiLich/Day2'))
-
 WebUI.click(findTestObject('Folder_Gerenal/訪問先/勤務追加'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/訪問先/出勤BOX'), '0600')
