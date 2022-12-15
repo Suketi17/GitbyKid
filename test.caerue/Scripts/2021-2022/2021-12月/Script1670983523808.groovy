@@ -18,235 +18,235 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //2021-12-1
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/employee_working_month'), '12月度', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '12月度', false)
 
-WebUI.click(findTestObject('1-31/01'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/01'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-3
-WebUI.click(findTestObject('1-31/03'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/03'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-5
-WebUI.click(findTestObject('1-31/05'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/05'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-8
-WebUI.click(findTestObject('1-31/08'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/08'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-10
-WebUI.click(findTestObject('1-31/10'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/10'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-12
-WebUI.click(findTestObject('1-31/12'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/12'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.clearText(findTestObject('choose_work_location/Input Kimuchi'))
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
 
-WebUI.click(findTestObject('choose_work_location/Input Kimuchi - Select'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-13
-WebUI.click(findTestObject('1-31/13'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/13'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-15
-WebUI.click(findTestObject('1-31/15'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/15'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
 //2021-12-18
-WebUI.click(findTestObject('1-31/18'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/18'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '0900')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
-WebUI.click(findTestObject('choose_work_location/追加'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('choose_work_location/打刻時刻'), '1800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
 
-WebUI.selectOptionByLabel(findTestObject('choose_work_location/退勤'), '退勤', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
-WebUI.click(findTestObject('choose_work_location/Save'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('choose_work_location/List NV'))
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
-WebUI.selectOptionByLabel(findTestObject('Choose_year_month_day/Choose_year21-22'), '2022年', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year21-22'), '2022年', false)
 
-WebUI.selectOptionByLabel(findTestObject('Choose_year_month_day/Choose_month12-9'), '09月', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_month12-9'), '09月', false)
 
-WebUI.click(findTestObject('Choose_year_month_day/Choose_day93'))
+WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_day93'))
 
