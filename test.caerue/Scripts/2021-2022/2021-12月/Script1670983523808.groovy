@@ -245,6 +245,10 @@ WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/é€
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
+
 //2021-12-19
 WebUI.click(findTestObject('Folder_Gerenal/1-31/19'))
 
