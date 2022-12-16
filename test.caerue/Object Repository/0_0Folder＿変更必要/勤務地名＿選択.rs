@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()='HoaKanh']/following-sibling::td/p</value>
+         <value>//td[text()='HoangTower']/following-sibling::td/p</value>
       </entry>
       <entry>
          <key>BASIC</key>
