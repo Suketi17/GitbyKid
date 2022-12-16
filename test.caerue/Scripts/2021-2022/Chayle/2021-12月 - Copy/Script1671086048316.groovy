@@ -239,3 +239,34 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+//2021-12-19
+WebUI.click(findTestObject('Folder_Gerenal/1-31/19'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1800')
+
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '1900')
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '2000')
+
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))

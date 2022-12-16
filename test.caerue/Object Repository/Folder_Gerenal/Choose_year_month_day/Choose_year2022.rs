@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Choose_year21-22</name>
+   <name>Choose_year2022</name>
    <tag></tag>
-   <elementGuidId>1acecb67-6422-45eb-aeb9-50e74e789dac</elementGuidId>
+   <elementGuidId>78f357c0-c469-4b69-9612-db6a9b907cba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/main[@id='attendance_detail']/section[1]/div[1]/section[1]/section[1]/section[2]/section[1]/a[1]/img[1]</value>
+         <value>/html[1]/body[1]/main[1]/section[1]/div[1]/section[1]/section[1]/div[1]/select[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

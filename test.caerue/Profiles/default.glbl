@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'HoangTower'</initValue>
+      <initValue>'TestSEVERTEST'</initValue>
       <name>kimuchi_name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'6467'</initValue>
+      <initValue>'severtest'</initValue>
       <name>ID_employe</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

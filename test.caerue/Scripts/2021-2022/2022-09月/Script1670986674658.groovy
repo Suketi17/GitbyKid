@@ -16,16 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
-WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year21-22'), '2022年', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year2022'), '2022年', false)
 
-WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_month12-9'), '09月', false)
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_month2022_9'), '9月度', false)
 
 //2022-9-3
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_day93'))
+WebUI.click(findTestObject('Folder_Gerenal/1-31/03'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -160,3 +161,4 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+

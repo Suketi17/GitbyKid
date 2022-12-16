@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Choose_day93</name>
+   <name>Choose_year2021</name>
    <tag></tag>
-   <elementGuidId>fe63783f-2e68-49f5-87a8-0b24436c8d81</elementGuidId>
+   <elementGuidId>1acecb67-6422-45eb-aeb9-50e74e789dac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/main[@id='attendance_detail']/section[1]/div[1]/section[1]/section[2]/section[1]/div[1]/section[2]/table[1]/tr[2]/td[7]</value>
+         <value>//body/main[@id='attendance_detail']/section[1]/div[1]/section[1]/section[1]/section[2]/section[1]/a[1]/img[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -118,7 +118,7 @@ WebUI.click(findTestObject('Folder_Gerenal/1-31/10'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0600')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0800')
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
@@ -131,7 +131,7 @@ WebUI.click(findTestObject('Folder_Gerenal/1-31/11'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0800')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0600')
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
