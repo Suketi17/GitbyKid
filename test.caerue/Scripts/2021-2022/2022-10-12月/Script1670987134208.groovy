@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
+
 WebUI.waitForElementClickable(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year21-22'), 2)
 
 WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
+
 //2022-10-5
 WebUI.click(findTestObject('Folder_Gerenal/1-31/05'))
 
@@ -126,4 +128,3 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
-

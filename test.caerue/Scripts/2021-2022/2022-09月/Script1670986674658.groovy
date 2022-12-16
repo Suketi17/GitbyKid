@@ -24,8 +24,9 @@ WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/C
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_month12-9'), '09月', false)
 
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_day93'))
 //2022-9-3
+WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_day93'))
+
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
 WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
@@ -159,6 +160,3 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
-
-
-

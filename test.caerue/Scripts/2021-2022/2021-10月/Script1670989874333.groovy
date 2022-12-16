@@ -17,6 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
+
+WebUI.waitForElementClickable(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year21-22'), 2)
+
+WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
+
 //2021-10-4
 WebUI.click(findTestObject('Folder_Gerenal/1-31/04'))
 
@@ -297,12 +305,3 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
-
-WebUI.waitForElementClickable(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year21-22'), 2)
-
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
-

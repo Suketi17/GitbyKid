@@ -218,5 +218,3 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
-
-

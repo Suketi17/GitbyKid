@@ -386,6 +386,3 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
-
-
-
