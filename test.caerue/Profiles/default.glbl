@@ -6,13 +6,13 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'TestSEVERTEST'</initValue>
-      <name>kimuchi_name</name>
+      <initValue>'severtest'</initValue>
+      <name>ID_employe</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'severtest'</initValue>
-      <name>ID_employe</name>
+      <initValue>'TestSEVERTEST'</initValue>
+      <name>kimuchi_name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
