@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('KMC_月度/login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021-22'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2023'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/Chayle/2021-11月 - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2023-07-12月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

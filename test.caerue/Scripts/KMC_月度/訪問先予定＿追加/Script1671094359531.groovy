@@ -25,6 +25,8 @@ WebUI.click(findTestObject('0_0Folder＿変更必要/勤務地名＿選択'))
 
 WebUI.click(findTestObject('0_0Folder＿変更必要/ID_訪問先'))
 
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_year'), '2022年', false)
+
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_year'), '2021年', false)
 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/employee_working_month'), '5月度', false)

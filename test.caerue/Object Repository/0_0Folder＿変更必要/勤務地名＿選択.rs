@@ -6,11 +6,11 @@
    <elementGuidId>2384f398-b826-4378-b4e8-8cf32183be38</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[text()='TestSEVERTEST']/following-sibling::td/p</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//td[text()='Test165']/following-sibling::td/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('KMC_月度/訪問先予定＿追加'), [:], Fai
 
 WebUI.callTestCase(findTestCase('KMC_月度/login2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('KMC_月度/勤務地＿＿選択2021-22'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('2021-2022/2021-05月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -41,7 +41,7 @@ WebUI.callTestCase(findTestCase('2021-2022/2021-11月'), [:], FailureHandling.CO
 
 WebUI.callTestCase(findTestCase('2021-2022/2021-12月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-09月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2023-04月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-10-12月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2023-07-12月'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -6,11 +6,11 @@
    <elementGuidId>5d0472cc-6723-4fa4-8a62-b276801fe0e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[normalize-space()='severtest']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='199']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

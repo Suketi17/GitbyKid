@@ -39,7 +39,7 @@ WebUI.callTestCase(findTestCase('2021-2022/2021-11月'), [:], FailureHandling.ST
 
 WebUI.callTestCase(findTestCase('2021-2022/2021-12月'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-09月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2023-04月'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('2021-2022/2022-10-12月'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('2021-2022/2023-07-12月'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -16,16 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_month2022_9'), '4月度', false)
 
-WebUI.waitForElementClickable(findTestObject('Folder_Gerenal/Choose_year_month_day/Choose_year2021'), 2)
-
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
-
-//2022-10-5
-WebUI.click(findTestObject('Folder_Gerenal/1-31/05'))
+//2022-9-3
+WebUI.click(findTestObject('Folder_Gerenal/1-31/03'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -38,6 +35,46 @@ WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
+
+//2022-9-6
+WebUI.click(findTestObject('Folder_Gerenal/1-31/06'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0900')
+
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '2300')
+
+WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'), GlobalVariable.kimuchi_name)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - Select'))
+
+WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
+
+//2022-9-8
+WebUI.click(findTestObject('Folder_Gerenal/1-31/08'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
@@ -90,15 +127,7 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/List NV'))
 
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Folder_Gerenal/Choose_year_month_day/Next_month5-11'))
-
-WebUI.delay(1)
-
-//2022-12-14
+//2022-9-14
 WebUI.click(findTestObject('Folder_Gerenal/1-31/14'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
@@ -115,9 +144,9 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/追加'))
 
-WebUI.selectOptionByValue(findTestObject('Folder_Gerenal/choose_work_location/打刻日'), '2022-12-15', false)
+WebUI.selectOptionByValue(findTestObject('Folder_Gerenal/choose_work_location/打刻日'), '2023-04-15', false)
 
-WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0500')
+WebUI.sendKeys(findTestObject('Folder_Gerenal/choose_work_location/打刻時刻'), '0100')
 
 WebUI.clearText(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi'))
 
@@ -128,3 +157,4 @@ WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Input Kimuchi - 
 WebUI.selectOptionByLabel(findTestObject('Folder_Gerenal/choose_work_location/退勤'), '退勤', false)
 
 WebUI.click(findTestObject('Folder_Gerenal/choose_work_location/Save'))
+
